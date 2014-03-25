@@ -1,4 +1,6 @@
-This is a simple example of using PIT with ant.
+# pitest ant example
+
+Simple example of using http://pitest.org with ant.
 
 To mutation test just run
 
