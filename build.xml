@@ -8,8 +8,8 @@
 	<path id="pitest.path">
                 <!-- must currently include the test library on the tool classpath. this will be fixed in a future version-->
    		<pathelement location="lib/junit-4.9.jar" />
-		<pathelement location="lib/pitest-0.33.jar" />
-		<pathelement location="lib/pitest-ant-0.33.jar" />
+		<pathelement location="lib/pitest-1.1.4.jar" />
+		<pathelement location="lib/pitest-ant-1.1.4.jar" />
 	</path>
 
 	<taskdef name="pitest" classname="org.pitest.ant.PitestTask" classpathref="pitest.path" />
