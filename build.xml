@@ -6,14 +6,9 @@
 
         <!-- classpath for pitest and any plugins -->
 	<path id="pitest.path">
-                <!-- must currently include the test library on the tool classpath. this will be fixed in a future version-->
-   		<pathelement location="lib/junit-4.9.jar" />
-                <!-- xstream and xmlpull currently required on classpath. Requirement may be removed in future version-->
-		<pathelement location="lib/xstream-1.4.8.jar" />
-		<pathelement location="lib/xmlpull-1.1.3.1.jar" />
-		<pathelement location="lib/pitest-1.2.0.jar" />
-		<pathelement location="lib/pitest-entry-1.2.0.jar" />
-		<pathelement location="lib/pitest-ant-1.2.0.jar" />
+		<pathelement location="lib/pitest-1.7.4.jar" />
+		<pathelement location="lib/pitest-entry-1.7.4.jar" />
+		<pathelement location="lib/pitest-ant-1.7.4.jar" />
 	</path>
 
 	<taskdef name="pitest" classname="org.pitest.ant.PitestTask" classpathref="pitest.path" />
