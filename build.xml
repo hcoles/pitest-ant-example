@@ -100,7 +100,8 @@
 			<path refid="pitest.path"/>
 			<path refid="test.path"/>
 		</path>
-		<pitest pitClasspath="pitest.path" threads="2" classPath="mutation.path" targetTests="com.example.*" targetClasses="com.example.*" reportDir="pitReports" sourceDir="src" />
+        <!-- export feature has been activated to write mutants to file -->
+        <pitest features="+EXPORT" pitClasspath="pitest.path" threads="2" classPath="mutation.path" targetTests="com.example.*" targetClasses="com.example.*" reportDir="pitReports" sourceDir="src" />
 	</target>
 
 </project>
