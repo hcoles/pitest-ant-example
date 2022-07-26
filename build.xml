@@ -6,9 +6,9 @@
 
         <!-- classpath for pitest and any plugins -->
 	<path id="pitest.path">
-		<pathelement location="lib/pitest-1.7.4.jar" />
-		<pathelement location="lib/pitest-entry-1.7.4.jar" />
-		<pathelement location="lib/pitest-ant-1.7.4.jar" />
+		<pathelement location="lib/pitest-1.9.3.jar" />
+		<pathelement location="lib/pitest-entry-1.9.3.jar" />
+		<pathelement location="lib/pitest-ant-1.9.3.jar" />
 	</path>
 
 	<taskdef name="pitest" classname="org.pitest.ant.PitestTask" classpathref="pitest.path" />
@@ -38,7 +38,8 @@
 		<pathelement location="${classOutputDir}/classes" />
 
 		<pathelement location="${classOutputDir}/test-classes" />
-		<pathelement location="lib/junit-4.9.jar" />
+		<pathelement location="lib/hamcrest-all-1.3.jar" />
+        <pathelement location="lib/junit-4.13.2.jar" />
 
 	</path>
 
